@@ -28,7 +28,7 @@ The program is organized into several key classes:
 
 
 ## How to execute the proram
-use the following command in your terminal:
+use the following command in your terminal to run the jar file:
 java -jar [path_to_jar_file]
 
 ## Contributing
