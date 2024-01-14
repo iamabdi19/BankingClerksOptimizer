@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
-//
+
 public class BankingClerksOptimizer {
     // MinHeaps for customers in each work shift and unit (Commercial, Casual, Loans)
     static BankCustomerMinHeap workShift1, workShift2, workShift3;
