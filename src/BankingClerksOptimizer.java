@@ -366,7 +366,7 @@ public class BankingClerksOptimizer {
 
 //CustomerMinHeap
 	public static BankCustomerMinHeap copy(BankCustomerMinHeap CustminHeap) {
-	    ArrayList<BankCustomer> temp = new ArrayList();
+	    ArrayList<BankCustomer> temp = new ArrayList<>();
 	    BankCustomerMinHeap cMinheap = new BankCustomerMinHeap(CustminHeap.size());
 
 	    while(!CustminHeap.isEmpty()) {
