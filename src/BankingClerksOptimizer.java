@@ -273,7 +273,7 @@ public class BankingClerksOptimizer {
 	}
 
 	private static void setMaxWaitingTimes(Scanner input) {
-	    System.out.print("Enter Maximum Waiting Time for commercial, casual, and loans (separated by space): ");
+	    System.out.print("Enter Maximum Waiting Time for commercial, loans, and casual (separated by space): ");
 	    commercialMaxWaitingTime = input.nextInt();
 	    loansMaxWaitingTime = input.nextInt();
 	    casualMaxWaitingTime = input.nextInt();
