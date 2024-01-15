@@ -26,24 +26,6 @@ The program is organized into several key classes:
 5. BankClerkMinHeap: Another crucial min-heap structure, used specifically for simulating the clerks' operations.
 
 
-## Test Case: Manual Customer Data Entry
-## User Input:
-
--option 2 for Manual data entry selected.
--Max wait times: Commercial 4 mins, Loans 6 mins, Casual 7 mins.
--Customer Data:
-Shift 1: (5 customers) 09:01 2 1 09:02 10 2 09:30 12 2 10:00 11 2 10:01 12 3
-Shift 2: (5 customers) 13:01 2 1 13:02 10 2 13:30 12 2 14:03 11 2 14:11 12 3
-Shift 3: (4 customers) 18:01 2 1 18:02 10 2 18:30 12 2 19:00 11 2
-
-## Expected Output:
-
--Max wait times: Commercial 4 mins, Loans 6 mins, Casual 7 mins.
--Clerks needed per shift:
-Shift 1: 1 each for Commercial, Loans, Casual.
-Shift 2: 1 each for Commercial, Loans, Casual.
-Shift 3: 1 for Commercial and Casual, 0 for Loans.
-
 ## How to execute the proram
 use the following command in your terminal to run the jar file:
 java -jar [path_to_jar_file]
